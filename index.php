@@ -52,3 +52,30 @@ if ($reviewsJson !== false) {
   </div>
 </section>
 
+<section class="reviews-section">
+  <h2>Klantreviews</h2>
+
+  <?php if (count($reviews) === 0) { ?>
+    <p>Geen reviews gevonden.</p>
+  <?php } else { ?>
+    <div class="reviews">
+      <?php foreach ($reviews as $r) { ?>
+        <div class="review">
+          <strong><?php echo $r['naam']; ?></strong>
+
+          <div class="sterren">
+            <?php
+              $i = 0;
+              while ($i < $r['sterren']) {
+                echo "★";
+                $i++;
+              }
+            ?>
+          </div>
+
+          <p><?php echo $r['tekst']; ?></p>
+        </div>
+      <?php } ?>
+    </div>
+  <?php } ?>
+</section>
