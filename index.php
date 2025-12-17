@@ -81,19 +81,46 @@ if ($reviewsJson !== false) {
 </section>
 
 <footer class="footer">
-  <div class="footer-inner">
-    <p class="footer-title">Het Gouden Gebaar</p>
-    <p class="footer-text">
-      Vragen of interesse? Neem gerust contact op.
-    </p>
+  <div class="footer-container">
 
-    <ul class="footer-links">
-      <li><a href="mailto:info@hetgoudengebaar.nl">info@hetgoudengebaar.nl</a></li>
-      <li><a href="tel:+31600000000">+31 6 00000000</a></li>
-    </ul>
+    <div class="footer-col footer-left">
+      <img src="images/logo.png" alt="Het Gouden Gebaar logo" class="footer-logo">
 
-    <p class="footer-copy">
-      © <?php echo date("Y"); ?> – Het Gouden Gebaar (school opdracht)
-    </p>
+      <p class="footer-text">
+        Het Gouden Gebaar biedt cursussen en workshops gebarentaal voor particulieren,
+        scholen en bedrijven. We maken communicatie toegankelijk en praktisch.
+      </p>
+    </div>
+
+    <div class="footer-col footer-middle">
+      <h4>Contact</h4>
+
+      <ul class="footer-list">
+        <li>Het Gouden Gebaar</li>
+        <li>Aranka van Woersem</li>
+        <li>Pretludweg 2</li>
+        <li>1312 SX Almere</li>
+        <li>0613322498</li>
+        <li>info@hetgoudengebaar.nl</li>
+        <li class="footer-spacer"></li>
+        <li>KVK: 58385495</li>
+      </ul>
+    </div>
+
+    <div class="footer-col footer-right">
+      <h4>Pagina's</h4>
+
+      <ul class="footer-list">
+        <li>Home</li>
+        <li>Aanbod cursussen</li>
+        <li>Over ons</li>
+        <li>Reviews</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © Het Gouden Gebaar <?php echo date("Y"); ?>
   </div>
 </footer>
