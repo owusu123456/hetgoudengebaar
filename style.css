@@ -55,3 +55,27 @@
 .cursus-card h3 {
   margin-top: 0;
 }
+
+
+.reviews-section {
+  background: #eaeaea;
+  padding: 60px 40px;
+}
+
+.reviews {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.review {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 250px;
+}
+
+.sterren {
+  color: #f1c40f;
+  margin: 5px 0;
+}
