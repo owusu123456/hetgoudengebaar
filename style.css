@@ -21,3 +21,37 @@
   max-width: 600px;
   line-height: 1.5;
 }
+
+.cursussen {
+  background: #ffffff;
+  padding: 60px 40px;
+}
+
+.cursussen h2 {
+  margin-bottom: 30px;
+}
+
+.cursussen-grid {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.cursus-card {
+  flex: 1 1 280px;
+  padding: 24px;
+  border-radius: 16px;
+  background: #f3f4f6;
+}
+
+.cursus-card:nth-child(2) {
+  background: #f5f5f5;
+}
+
+.cursus-card:nth-child(3) {
+  background: #fdeadd;
+}
+
+.cursus-card h3 {
+  margin-top: 0;
+}
