@@ -1,3 +1,15 @@
+<?php
+$reviews = [];
+
+$reviewsJson = file_get_contents('reviews.json');
+if ($reviewsJson !== false) {
+  $data = json_decode($reviewsJson, true);
+  if (is_array($data)) {
+    $reviews = $data;
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
