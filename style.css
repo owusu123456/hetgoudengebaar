@@ -56,28 +56,65 @@
   margin-top: 0;
 }
 
-
-.reviews-section {
-  background: #eaeaea;
-  padding: 60px 40px;
+.klantenreviews {
+  background: #fff;
+  padding: 70px 40px;
 }
 
-.reviews {
+.reviews-header {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.klantenreviews h2 {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, sans-serif;
+  color: #474e37
+}
+
+.reviews-grid {
+  display: flex;
+  gap: 24px;
   flex-wrap: wrap;
 }
 
-.review {
-  background: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  flex: 1 1 250px;
+.review-kaart {
+  background: #fffaeb;
+  padding: 24px;
+  border-radius: 18px;
+  flex: 1 1 280px;
+  font-family: Arial, sans-serif;
+}
+.review-kaart p{
+  color: #000;
+
+}
+
+.review-naam {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #474e37;
+}
+
+.review-tekst {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 10px;
 }
 
 .sterren {
-  color: #f1c40f;
-  margin: 5px 0;
+  color: #d6a756;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .reviews-grid {
+    flex-direction: column;
+  }
 }
 
 .footer {
