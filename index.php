@@ -79,3 +79,21 @@ if ($reviewsJson !== false) {
     </div>
   <?php } ?>
 </section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p class="footer-title">Het Gouden Gebaar</p>
+    <p class="footer-text">
+      Vragen of interesse? Neem gerust contact op.
+    </p>
+
+    <ul class="footer-links">
+      <li><a href="mailto:info@hetgoudengebaar.nl">info@hetgoudengebaar.nl</a></li>
+      <li><a href="tel:+31600000000">+31 6 00000000</a></li>
+    </ul>
+
+    <p class="footer-copy">
+      © <?php echo date("Y"); ?> – Het Gouden Gebaar (school opdracht)
+    </p>
+  </div>
+</footer>
