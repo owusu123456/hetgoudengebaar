@@ -1,0 +1,23 @@
+.header {
+  background: #4b5536;
+  padding: 20px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.intro {
+  background: #ffffff;
+  padding: 60px 40px;
+}
+
+.intro h1 {
+  margin-top: 0;
+  font-size: 36px;
+}
+
+.intro p {
+  max-width: 600px;
+  line-height: 1.5;
+}
